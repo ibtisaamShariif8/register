@@ -1,0 +1,74 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{background:#f4f6f8;color:#333;line-height:1.6;}
+
+.navbar{display:flex;justify-content:space-between;padding:15px 40px;background:#0a3d62;color:#fff;align-items:center;}
+.navbar ul{display:flex;list-style:none;}
+.navbar li{margin-left:20px;}
+.navbar a{color:#fff;text-decoration:none;font-weight:bold;}
+
+.hero, .page-hero{padding:80px;background:#1e90ff;color:#fff;text-align:center;}
+.hero .btn, .cta .btn{display:inline-block;background:#ff7f50;color:#fff;padding:10px 20px;margin-top:20px;text-decoration:none;border-radius:5px;}
+
+section{padding:50px;text-align:center;margin:20px 0;border-radius:10px;background:#fff;}
+section.light{background:#f9f9f9;}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;margin-top:20px;}
+.card{background:#dff9fb;padding:20px;border-radius:8px;box-shadow:0 0 10px #ccc;}
+
+form input, form select, form button{width:100%;padding:12px;margin:10px 0;border-radius:5px;border:1px solid #ccc;}
+form button{background:#1e90ff;color:#fff;border:none;cursor:pointer;transition:0.3s;}
+form button:hover{background:#3742fa;}
+
+table{width:100%;border-collapse:collapse;background:#fff;}
+th,td{border:1px solid #ccc;padding:10px;text-align:left;}
+th{background:#1e90ff;color:#fff;}
+
+footer{background:#0a3d62;color:#fff;text-align:center;padding:20px;margin-top:30px;}
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f8;
+  }
+  
+  .register-section {
+    width: 360px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
+  input:disabled, select:disabled {
+    background: #eee;
+  }
+  
+  #msg {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
